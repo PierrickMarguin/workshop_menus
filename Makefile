@@ -16,7 +16,6 @@ SRC			=	src/create/create_clock.c \
 				src/destroy/destroy_view.c \
 				src/destroy/destroy_background.c \
 				src/draw/draw.c \
-				src/draw/draw_background.c \
 				src/events/handle_event.c \
 				src/events/event_closed.c \
 				src/events/event_resized.c \

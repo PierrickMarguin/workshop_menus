@@ -11,7 +11,7 @@
 int create_background(game_t *game)
 {
     game->background_texture = sfTexture_createFromFile( \
-"assets/etienne_le_golem.png", NULL);
+"/home/pmarguin/Bureau/Wallpapers/alice.png", NULL);
     if (!game->background_texture)
         return (0);
     game->background = sfSprite_create();

@@ -36,8 +36,10 @@ static event_function events[sfEvtCount][MAX_EVENT_COUNT] = {
     {NULL} // sfEvtSensorChanged
 };
 
+int draw_background(game_t *game, menu_t *menu);
+
 int draw_menu_background(game_t *game, menu_t *menu);
 
-static draw_function draws[] = {draw_menu_background, NULL};
+static draw_function draws[] = {draw_menu_background, draw_background, NULL};
 
 #endif /* MENU_1_H_ */
