@@ -18,7 +18,7 @@ int copy_event_tab(menu_t *menu, event_function tab[sfEvtCount][MAX_EVENT_COUNT]
 int create_menu_1(game_t *game, menu_t *menu)
 {
     (void)game;
-    if (!copy_event_tab(menu, &events[0]))
+    if (!copy_event_tab(menu, events))
         return (0);
     if (!copy_draw_tab(menu, &draws[0]))
         return (0);
